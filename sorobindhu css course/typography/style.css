@@ -1,0 +1,21 @@
+h1{
+    color: red;
+    text-align: center;
+    background-color: rgb(33, 229, 33);
+}
+.color-name{
+    color: black;
+    background: pink;
+}
+.rgb-color{
+    color: rgb(114, 34, 188);
+    background: rgb(26, 25, 25);
+}
+.hex-color{
+    color: #E08DFF;
+    background: #1B4D3E;
+}
+.hsl-color{
+    color: #ff7070;
+    background: #2a4e22;
+}
