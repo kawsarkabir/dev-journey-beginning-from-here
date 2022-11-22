@@ -1,6 +1,11 @@
 body{
     font-family: sans-serif;
 }
+h1{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
 .right{
     text-align: right;
 }
@@ -18,4 +23,13 @@ body{
 }
 .underline{
     text-decoration: underline;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
 }
