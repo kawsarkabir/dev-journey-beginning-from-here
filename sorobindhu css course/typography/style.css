@@ -1,7 +1,15 @@
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+}
 h1{
     color: red;
     text-align: center;
     background-color: rgb(33, 229, 33);
+}
+li{
+    padding: 20px;
+    margin: 20px;
 }
 .color-name{
     color: black;
@@ -16,6 +24,10 @@ h1{
     background: #1B4D3E;
 }
 .hsl-color{
-    color: #ff7070;
-    background: #2a4e22;
+    color: #43ebb3;
+    background: #93095e;
+}
+.rgba-color{
+    color: black;
+    background: rgba(234, 159, 21, .5);
 }

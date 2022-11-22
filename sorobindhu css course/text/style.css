@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.overline{
+    text-decoration: overline;
+}
+.line-throught{
+    text-decoration: line-through;
+}
+.underline{
+    text-decoration: underline;
+}
