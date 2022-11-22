@@ -42,3 +42,8 @@ h1{
 .word-spacing{
     word-spacing: 60px;
 }
+.k2{
+    text-shadow: 5px 5px rgb(11, 229, 11) ;
+    font-size: 30px;
+    color: red;
+}
