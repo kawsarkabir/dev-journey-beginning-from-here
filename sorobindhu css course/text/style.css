@@ -33,3 +33,12 @@ h1{
 .capitalize{
     text-transform: capitalize;
 }
+.letter-spacing{
+    letter-spacing: 30px;
+}
+.line-height{
+    line-height: 80px;
+}
+.word-spacing{
+    word-spacing: 60px;
+}
