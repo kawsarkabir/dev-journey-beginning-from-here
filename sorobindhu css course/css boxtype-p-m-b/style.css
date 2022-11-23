@@ -1,0 +1,15 @@
+.egg{
+    
+}
+.dim{
+     width: 180px;
+     height: 300px;
+     background: rgb(16, 192, 57);
+     border-radius: 80%;
+}
+.kusum{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+}
