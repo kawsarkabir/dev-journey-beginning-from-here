@@ -26,8 +26,6 @@ header{
 .name-cus{
     color: #FF8367;
 }
-.head-text{
-}
 .head-pic{
      width: 30%;
 
@@ -94,9 +92,6 @@ span{
 }
 .stay-connect{
       text-align: center;
-}
-.social-icon{
-
 }
 .social-icon img{
     width: 40px;
