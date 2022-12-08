@@ -1,3 +1,5 @@
+// 16-8 (advanced) String Concatenation, type conversion parseInt parseFloat
+
 var price1 = 30;
 var price2 = '30';
 var totalPrice = price1 + price2;
