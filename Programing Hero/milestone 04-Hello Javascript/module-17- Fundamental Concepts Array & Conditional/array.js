@@ -6,3 +6,8 @@ var actress = ["sabana", "sabnur", "opu"];
 console.log(actress);
 //  array ar position suru hoi all time 0 theke
 
+
+
+
+
+
