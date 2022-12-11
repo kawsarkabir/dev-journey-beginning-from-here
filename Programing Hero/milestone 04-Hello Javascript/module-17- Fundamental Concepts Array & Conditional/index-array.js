@@ -8,5 +8,16 @@ console.log((numbers[3]));
 // set element by array
 numbers [0] = 700;
 console.log(numbers);
-var positionIndex = numbers.indexOf(500);
+var positionIndex = numbers.indexOf(50);
 console.log(positionIndex);
+
+// indexof
+var bazarList = ["kachamoris", "chal", "dal", "murgi"];
+// set element
+bazarList[2] ="fulKopi"
+console.log(bazarList); 
+
+// find index of an element
+
+console.log(bazarList.indexOf("chal"));
+
