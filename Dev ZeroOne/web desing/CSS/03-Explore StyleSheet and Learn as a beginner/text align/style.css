@@ -36,3 +36,6 @@
 .word-spaching{
     word-spacing: 30px;
 }
+.shadow{
+    text-shadow: 1px 3px red;
+}
