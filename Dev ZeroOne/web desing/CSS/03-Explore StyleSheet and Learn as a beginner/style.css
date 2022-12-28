@@ -1,0 +1,38 @@
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+
+
+.overline{
+    text-decoration: overline;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.latter-spacing{
+    letter-spacing: 50px;
+}
+.line-height{
+    line-height: 50px;
+}
+.word-spaching{
+    word-spacing: 30px;
+}
