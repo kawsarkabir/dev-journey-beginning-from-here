@@ -80,3 +80,34 @@
 .hero-title a{
     padding: 0px 12px;
 }
+/* hero sub caption section start */
+.hero-sub-caption{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50%;
+}
+.hero-sub-caption .date, h1{
+    font-size: 30px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.icon ul{
+    list-style: none;
+}
+.icon ul li{
+    display: inline-block;
+    background: #ee5007;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    position: relative;
+    left: 5px;
+}
