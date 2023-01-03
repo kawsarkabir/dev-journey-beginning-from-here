@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(40, 39, 39);
+    padding: 1.1rem ;
+}
+ul li{
+    padding: 0px 15px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-family: sans-serif;
+}
