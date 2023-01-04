@@ -1,0 +1,13 @@
+.mega-box{
+    height: 25rem;
+    width: 35rem;
+    border: 3px solid rgb(59, 160, 218);
+    /* overflow: hidden;  */
+    overflow-y: scroll;
+}
+.mango-people{
+    border: 3px solid red;
+    overflow: hidden;
+    height: 25rem;
+    width: 35rem;
+}
