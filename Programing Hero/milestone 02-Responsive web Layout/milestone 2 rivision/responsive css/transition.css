@@ -1,0 +1,12 @@
+.container{
+    background: green;
+    width: 10rem;
+    height: 5rem;
+    transition: width 5s ease, height 5s, transform 2s;
+}
+
+.container:hover{
+    width: 15rem;
+    height: 10rem;
+    transform: rotate(180deg);
+}
