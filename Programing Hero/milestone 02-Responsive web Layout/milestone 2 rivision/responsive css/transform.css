@@ -1,0 +1,14 @@
+.box-container{
+    width: 18rem;
+    height: 30rem;
+    background: rgb(17, 167, 218);
+}
+.inner{
+    width: 15rem;
+    height: 15rem;
+    border: 3px solid red;
+    background: rgb(49, 232, 58);
+    transform:translate(100px, 50px)  scale(0.5) rotate(45deg) ;
+    
+
+}
