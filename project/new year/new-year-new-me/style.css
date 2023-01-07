@@ -2,6 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.full-website{
+    max-width: 1080px;
+    margin: 0px auto;
 }
 /* ============= header section start ============ */
 header{
@@ -28,7 +34,6 @@ header{
 .header-content p{
 line-height: 22px;
 }
-
 .header-content .btn{
     background-color: #fff;
     color: #0063b3;
@@ -40,3 +45,75 @@ line-height: 22px;
     margin-top: 10px;
 }
 /* ====================== header section end ============ */
+/* ====================== failure  section start ============ */
+.failure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+}
+.failure-content{width: 55%;margin-left: 30px;}
+.failure-content h1{
+    font-size: 40px;
+}
+.failure-content p{
+    line-height: 23px;
+}
+.failure-list-items ul{
+    list-style: none;
+    margin-top: 15px;
+}
+.failure-list-items ul li{
+    line-height: 23px;
+}
+.failure-list-items ul li .icon{
+    color: #16d887;
+}
+
+/* ===================== failure section end ================ */
+/* ================= my plan section start ============*/
+.my-plan-container{
+    padding: 100px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-plan-container p{
+    color: #737272;
+    font-size: 1.1rem;
+}
+.my-plan-content{
+    padding-right:3rem;
+}
+.my-plan-header .center{
+    text-align: center;
+    font-size: 45px;
+}
+/* ================= my plan section end ============== */
+/* ============== watch section start =============== */
+.watch{
+    background-image: url(./images/watch.png);
+    position: relative;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+.watch h1{
+    padding: 0px 10px;
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(2, 94, 169, 1),
+     rgba(2, 94, 169, 0));
+     border-radius: 10px;
+}
