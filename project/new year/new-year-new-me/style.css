@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ============= header section start ============ */
+header{
+    background-image: url(./images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.header-content{
+    color: #fff;
+    width: 50%;
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    padding-right: 50px;
+}
+.header-content h1{
+    font-weight: 700;
+    font-size: 55px;
+}
+.header-content p{
+line-height: 22px;
+}
+
+.header-content .btn{
+    background-color: #fff;
+    color: #0063b3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* ====================== header section end ============ */
