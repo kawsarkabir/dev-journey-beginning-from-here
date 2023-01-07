@@ -34,7 +34,7 @@ header{
 .header-content p{
 line-height: 22px;
 }
-.header-content .btn{
+.btn{
     background-color: #fff;
     color: #0063b3;
     padding: 10px 20px;
@@ -117,3 +117,37 @@ img{
      rgba(2, 94, 169, 0));
      border-radius: 10px;
 }
+/* ============ watch section end ============= */
+/* ============  footer section start ============== */
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 25rem;
+}
+.left p{
+    line-height: 25px;
+    padding: 10px 0px;
+}
+.left img{
+    width: 2.1rem;
+    padding: 0px 2px;
+}
+.right a{
+    background-color: #0063b3;;
+    color: #fff;
+    font-weight: 400;
+}
+.right input{
+    border: none;
+    background: #000;
+    border: 1px solid #fff;
+    padding: 10px  15px;
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+
