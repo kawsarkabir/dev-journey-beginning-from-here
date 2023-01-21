@@ -282,3 +282,15 @@ common css style end
     font-size: 60px;
     color: #6a6dfb;
 }
+/* contact section end */
+/* footer section start */
+.footer-section ul{
+    list-style: none;
+    position: relative;
+    left: -30px;
+}
+.footer-section ul li{
+    padding: 5px 0px;
+    color: #6c757d;
+}
+/* footer section end */
