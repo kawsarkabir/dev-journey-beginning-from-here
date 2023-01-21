@@ -204,3 +204,51 @@ common css style end
     }
 }
 /* our team section end */
+/* pricing section stsrt */
+.pricing-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.pricing-section{
+    background-color: #f8f9fa;
+}
+.pricing-inner{
+    box-shadow: 1px 1px 10px #f8f9fa;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.pricing-inner h1{
+    color: #6a6dfb;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.pricing-inner i{
+    color: rgb(113, 210, 65);
+    margin-right: 8px;
+}
+.pricing-inner small{
+    font-size: 13px !important;
+    color: #6c757d;
+
+}
+.pricing-list ul{
+    list-style: none;
+    position: relative;
+    left: -30px;
+}
+.pricing-list ul li{
+    padding: 5px 0;
+}
+/* responsive style here */
+@media only screen and (max-width:576px) {
+    .pricing-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .pricing-inner h1{
+        font-size: 25px;
+    }
+    
+}
