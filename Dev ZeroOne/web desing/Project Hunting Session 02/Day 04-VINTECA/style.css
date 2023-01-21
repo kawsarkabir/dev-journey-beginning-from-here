@@ -271,4 +271,14 @@ common css style end
     
 }
 /* blog section end */
-
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contact-details{
+    box-shadow: 1px 1px 10px #aeaeae;
+}
+.contact-details .contact-icon{
+    font-size: 60px;
+    color: #6a6dfb;
+}
