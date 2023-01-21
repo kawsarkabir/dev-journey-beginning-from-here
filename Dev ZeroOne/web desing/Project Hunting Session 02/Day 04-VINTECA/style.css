@@ -2,3 +2,205 @@
 body{
     font-family: 'Noto Sans', sans-serif;
 }
+/* ====================
+  common css style here
+=======================*/
+.text-blueGray{
+    color: #222b31;
+}
+.bg-blueGray{
+    background-color: #222b31;
+}
+.text-blue{
+    color: #6a6dfb !important;
+}
+.bg-blue{
+    background-color: #6a6dfb;
+}
+.common-btn{
+    background: #6a6dfb;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+.outline-btn{
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+.section-title{
+    text-align: center;
+}
+.section-title h3{
+    font-weight: 600;
+    margin-bottom: 2rem;
+ }
+.section-title span{
+    color: #6a6dfb;
+}
+.section-title p{
+    width: 50%;
+    margin: auto;
+    color: #6c757d!important;
+
+}
+/*===================
+common css style end
+===================*/
+/* header section start */
+/* hero section start  */
+.hero-section{
+    background-image:linear-gradient(to right, rgba(45, 48, 41, 0.81), rgba(29, 29, 30, 0.7)) ,url('./img/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 30% 100%, 0 86%);
+    background-attachment: fixed;
+}
+
+.hero-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+.hero-content h1{
+    font-size: 55px;
+}
+/* hero section done */
+/* service section start */
+.services-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.item{
+    text-align: center;
+}
+.item img{
+    max-width: 60%;
+}
+.item h5{
+    font-weight: 700;
+    margin: 10px 0;
+}
+.item p{
+    color: #6c757d;
+    font-size: 15px !important;
+}
+/* service section responsive here */
+@media only screen and (max-width: 576px) {
+    .services-items{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+/* our service section end */
+.ready-enjoy{
+    padding: 100px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.ready-enjoy h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+.ready-enjoy p{
+    color: #6c757d;
+    font-size: 15px;
+    padding: 15px 0;
+}
+/* responsive style here */
+@media only screen and (max-width:576px) {
+    .ready-enjoy h3{
+        font-weight: 700;
+        font-size: 20px;
+       
+    }
+}
+/* ready section end */
+/* features section start */
+.feature-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-wrapper h6{
+    font-size: 14px;
+    font-weight: 700;
+}
+/* responsive style here */
+@media only screen and (max-width: 576px) {
+    .feature-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+         text-align: center;
+    }
+}
+/* features section end */
+/* our client secion start */
+.client-section{
+    background-color: #f8f9fa;
+}
+.client-inner{
+    box-shadow: 1px 1px 8px #aeaeae;
+}
+.client-inner span{
+    color: #ffc107;
+}
+/* client seciton end */
+/* our team section start */
+.team-section-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.team-inner{
+    border: 1px solid #797c7fe3;
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px;
+}
+.team-inner small{
+    position: relative;
+    top: -8px;
+    font-size: 12px;
+}
+.icon-menu{
+    border-top: 1px solid #acacace9;
+    margin-top: 10px;
+}
+.icon-menu ul{
+    list-style: none;
+    margin-left: -37px;
+}
+.icon-menu ul li{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #aeaeae;
+    color: #6c757d;
+    margin: 0 5px;
+    margin-top: 10px;
+}
+/* responsive style here */
+@media only screen and (max-width:576px) {
+    .team-section-wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+/* our team section end */
