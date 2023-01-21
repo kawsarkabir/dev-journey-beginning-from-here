@@ -252,3 +252,23 @@ common css style end
     }
     
 }
+/* pricing section end */
+/* blog section start */
+.blog-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.blog-inner{
+    box-shadow: 1px 1px 10px #eaeaea;
+    border-radius: 5px;
+}
+/* responsive style here */
+@media only screen and (max-width: 576px) {
+    .blog-wrapper{
+        grid-template-columns:  1fr;
+    }
+    
+}
+/* blog section end */
+
