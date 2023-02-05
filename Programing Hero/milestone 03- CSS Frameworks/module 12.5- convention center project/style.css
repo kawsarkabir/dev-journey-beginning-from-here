@@ -1,6 +1,22 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.text-gray{
+    color: #848199;
+}
+.text-blue{
+    color: #231D4F;
+}
 .carousel-custom-item{
     top: 35%;
+}
+.pricing-list {
+    position: relative;
+    right: 2rem;
+}
+.pricing-list ul{
+    list-style:none;
+}
+.pricing-list ul li{
+    padding: 3px 0px;
 }
