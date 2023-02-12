@@ -1,0 +1,30 @@
+.info{
+    color: blueviolet;
+    background: #000;
+}
+.sub-text{
+    font-size: 20px;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+.sajek-tour{
+    background: purple;
+    color: #000;
+    border: 5px solid red;
+    padding: 20px;
+    margin: 20px;
+}
+.sent-martine{
+    background: rgb(202, 130, 202);
+    color: #000;
+    border: 5px dotted rgb(192, 243, 7);
+    padding: 20px;
+    margin: 20px;
+}
+.gramer-bari{
+    color: red;
+    background: green;
+    border: 5px dashed rgb(192, 27, 109);
+    padding: 20px;
+    margin: 20px;
+}
