@@ -30,3 +30,23 @@ function makePink(){
 document.getElementById('make-orange').addEventListener('click', function(){
     document.body.style.backgroundColor = 'orange'
 })
+// option 4 fianl recomended
+document.getElementById('make-orange').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'orange'
+})
+// option 4 fianl recomended
+document.getElementById('make-orange').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'orange'
+})
+// option 4 fianl recomended
+document.getElementById('make-orange').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'orange'
+})
+document.getElementById('make-orange').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'orange'
+})
+
+
+
+
+// summmary 

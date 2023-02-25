@@ -5,25 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour of DOM</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        h1{
+    color: blueviolet;
+}
+.fruits-title{
+    background-color: red;
+}
+.important-place{
+   /* color: aqua;  */
+}
+.ul-container{
+    color: rgb(10, 207, 16) !important;
+}
+.k2-bg{
+    background-color: blueviolet !important;
+}
+.large-text{
+    font-size: 30px;
+}
+
+    </style>
 </head>
 <body>
     <header>
         <h1>Welcome to my DOM</h1>
     </header>
-    <main>
+    <main id="section-List">
         <h1>My Awesome DOM de Baba</h1>
         <ul>
             <li>Jalali Set</li>
             <li>Shafayer</li>
         </ul>
-        <section>
-            <h1 id="fruit-title">Places I Like to visit</h1>
-            <ul class="ul-container">
+        <section id="places-conteiner" class="large-text">
+            <h1 id="fruits-title">Places I Like to visit</h1>
+            <ul class="ul-container places-list">
                 <li class="important-place">Sundorbon</li>
                 <li class="important-place">bandorbon</li>
                 <li class="important-place">Katabon</li>
                 <li class="important-place">Shalbon</li>
+            </ul>
+        </section>
+        <section>
+            <h1 class="places-title">My Tour list</h1>
+            <ul id="tour-list">
+                <li>sajek</li>
+                <li>cox's Bazar</li>
+                <li>syhlet</li>
             </ul>
         </section>
 
@@ -46,6 +75,6 @@
 
     </main> 
     <!-- <script src="./dom.js"></script> -->
-    <script src="./apps.js"></script>
+    <script src="./recup-module.js"></script>
 </body>
 </html>

@@ -11,7 +11,7 @@ var mobile = {
 
 // 19-7 multiple ways to get and set object property
 
-/* var shoppingCartss = {
+var shoppingCartss = {
     book: 3,
     sunglass: 2,
     keyboard:1,
@@ -28,7 +28,7 @@ var properties = Object.keys(shoppingCart)
 console.log(properties);
 var propertyValue = Object.values(shoppingCart)
 console.log(propertyValue);
-// console.log(shoppingCart); */
+// console.log(shoppingCart); 
 
 
 
@@ -60,4 +60,52 @@ for (var i = 0; i < keys.length; i++){
 for (var propertyName in shoppingCart){
     const value = shoppingCart[propertyName]
     console.log(propertyName, value);
+}
+
+
+
+
+var color = 'yellow';
+/* if(color === 'green'){
+    console.log('green griend');
+}
+else if(color === 'blue'){
+    console.log('bule friend');
+}
+else if(color === 'red'){
+    console.log('red friend');
+}
+else if(color === 'white'){
+    console.log('white friend');
+}
+else if(color === 'yellow'){
+    console.log('yellow friend');
+}
+else{
+    console.log('kala kala friend');
+} */
+
+
+
+// switch case
+switch(color){
+    case 'green':
+        console.log('green friend');
+        break;
+    case 'blue':
+        console.log('blue friend');
+        break;
+    case 'white':
+            console.log('white friend');
+        break;    
+    case 'red':
+            console.log('red friend');
+        break;    
+    case 'yello':
+            console.log('yellow friend');
+        break; 
+    default:
+        console.log('kala kala friend');
+
+
 }
