@@ -45,6 +45,12 @@ document.getElementById('make-orange').addEventListener('click', function(){
 document.getElementById('make-orange').addEventListener('click', function(){
     document.body.style.backgroundColor = 'orange'
 })
+document.getElementById('make-orange').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'orange'
+})
+document.getElementById('make-orange').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'orange'
+})
 
 
 
