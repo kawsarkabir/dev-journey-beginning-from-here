@@ -7,8 +7,6 @@ document.getElementById('delete-confirm').addEventListener('keyup' , function(ev
     else{
         deleteButton.setAttribute('disabled' , true);
     }
-
-
 })
 document.getElementById('btn-delete').addEventListener('click' , function(){
    const secret = document.getElementById('secret-info');
