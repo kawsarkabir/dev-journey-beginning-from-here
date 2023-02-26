@@ -1,8 +1,8 @@
+    //  step 1 get the even handler btn 
 document.getElementById('btn-post').addEventListener('click', function(){
     // step get the comment
     const commentBox = document.getElementById('new-comment');
     const newComment = commentBox.value;
-    console.log(newComment);
     // step 3
     // 1 get the comment contaienr
     // 2 create the element (p tag)
