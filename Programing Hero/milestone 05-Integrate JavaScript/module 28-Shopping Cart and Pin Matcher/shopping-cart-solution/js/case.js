@@ -13,7 +13,6 @@ function updateCaseNumber(isIncrease){
         newCaseNumber= previousCaseNumner - 1;
     }
     caseNumberField.value = newCaseNumber;
-
     return newCaseNumber;
 }
 
