@@ -70,5 +70,27 @@ let name = name1 + ' ' + name2;
 console.log(name); */
 
 
+// library functions for string 
+var text = 'kawsar kabir'
+console.log(text.length);
 
+/* let text1 = prompt('Enter Your Name: ');
+console.log(text1.length);
+ */
+const text2 = 'kabir';
+console.log(text2.charAt(2));
 
+const upperCase = 'kawsar';
+console.log(upperCase.toUpperCase());
+
+// lowerCAse
+const text3 = 'kawsarkabir';
+console.log(text3.toLowerCase());
+
+// concat here 
+console.log( text2.concat(text3));
+
+// slice funcion 
+
+const slice1 = 'i love bangladesh';
+console.log(slice1.slice(7, 17));
