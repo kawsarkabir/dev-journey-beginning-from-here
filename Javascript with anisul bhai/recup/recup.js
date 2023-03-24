@@ -171,3 +171,50 @@ console.log(number1 > number2 && number3 > number2);
 //  or ar using ||
 console.log(number1 > number2 || number3 > number2); */
 
+// find the even or odd number 
+/* var number = 11;
+if(number % 2 == 0){
+    console.log('even');
+}else{
+    console.log('odd');
+} */
+
+// else if using 
+/* var num = 9;
+if(num > 0){
+    console.log('positive');
+}
+else if(num < 0){
+    console.log('negative');
+}
+else{
+    console.log('zero');
+} */
+
+// task 4 : grade point 
+/* var mark = prompt('Enter Your Number: ');
+if(mark >= 90){
+    console.log('tumi golden paicho');
+}
+else if(mark>= 80){
+    console.log('tumi a+ paicho');
+}
+else if (mark >= 70){
+    console.log('tumi a paicho');
+}
+else if(mark >= 60){
+    console.log('tumi b paicho');
+}
+else if(mark >= 50){
+    console.log('tumi c paicho');
+}
+else if(mark >= 40){
+    console.log('tumi d paicho');
+}
+else if(mark >= 33){
+    console.log('tumi e paicho');
+}
+else{
+    console.log('bhai tumi fail');
+} */
+
