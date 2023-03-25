@@ -35,7 +35,7 @@ console.log(isTrue);
 
 
 // how to variable declaration in javascript
-var variableName  = 'kabir';
+// var variableName  = 'kabir';
 // console.log(variableName);
 
 // variable namming convention in javascript
@@ -48,8 +48,8 @@ var variableName  = 'kabir';
 // let variableName = 'kawsar';  recomendet eay camel case 
 
 // toFixed
-var num = 2;
-console.log(num);
+// var num = 2;
+// console.log(num);
 
 // convert number to string
 var convertTostring = 100;
@@ -71,7 +71,7 @@ console.log(name); */
 
 
 // library functions for string 
-var text = 'kawsar kabir'
+// var text = 'kawsar kabir'
 // console.log(text.length);
 
 /* let text1 = prompt('Enter Your Name: ');
@@ -257,11 +257,11 @@ else if(digit == 9){
 }
 else{
     console.log('not a valid number');
-} */
-
+} 
+ */
 
 // switch 
-v/* ar digit = prompt('enter any number');
+/* var digit = prompt('enter any number');
 switch (digit){
     case '0':
         console.log('zero');
@@ -295,4 +295,73 @@ switch (digit){
         break;
     default:
         console.log('not a number');
+}  */
+
+
+
+/* var letter = prompt('enter a letter: ')
+letter = letter.toLowerCase();
+switch(letter){
+    case 'a':
+        console.log('vowel');
+    case 'e':
+        console.log('vowel');
+    case 'i':
+        console.log('vowel');
+    case 'o':
+        console.log('vowel');
+    case 'u':
+        console.log('vowel');
+    default:
+        console.log('consunent');
 } */
+
+// multiple condition in switch 
+/* switch(letter){
+    case 'a':
+    case 'b':
+    case 'c':
+    case 'd':
+    case 'e':
+        console.log('its vowel');
+    default:
+        console.log('consunent letter');
+} */
+
+// javascript bangla tutorial 18 : how to use for loop in javascript (part-1)
+
+
+/* for (var x = 1; x<=10; x++){
+    console.log(x);
+} */
+// even number using for loop 
+for (var i = 2; i<=100; i+=2){
+    console.log(i);
+}
+// odd number in 
+for (var i = 1; i<=100; i+=2){
+    console.log(i);
+}
+
+// 1-5 sumation
+var sum = 0;
+for (var i = 1; i<=5; i+= 1){
+    sum = sum + i;
+    console.log(sum);
+}
+
+
+// 2 numbers sumation in for loop 
+var num1 = prompt('enter a frist number: ');
+var num2 = prompt('enter a 2nd number: ');
+var sum = num1 + num2;
+console.log(sum);
+
+
+// using for loop 
+ for (var x = 1; x<= 5;  x++){
+    var num1 = prompt('enter a frist number: ');
+    var num2 = prompt('enter a 2nd number: ');
+    var sum = num1 + num2;
+    console.log(sum);
+ }
