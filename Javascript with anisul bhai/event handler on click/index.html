@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section style="text-align: center; margin-bottom: 50px">
+      <button id="btn" onclick="myMessage1()" style="padding: 8px 12px">
+        google
+      </button>
+      <button id="btn" onclick="myMessage2()" style="padding: 8px 12px">
+        chrome
+      </button>
+      <br />
+    </section>
+
+    <script>
+      var newPera = document.querySelector("#myimg");
+      function myMessage1() {
+        newPera.src = "";
+      }
+      function myMessage2() {
+        newPera.innerText = "i am message 2";
+      }
+    </script>
+
+    <img
+      id="myimg"
+      width="300px"
+      src="https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=595&height=400&name=image8-2.jpg"
+      alt=""
+    />
+
+    <img
+      id="myimg"
+      width="300px"
+      src="https://lh3.googleusercontent.com/jUoaTIlBn5ibfQcND2n5OMD6Z7xoqNj-ShHlFR6QuLffLXD5pS8V2eNg1rGlrsRrnDkoQ28O8UHzqzBQKAGY4l1CS2NQSq2SkRScK6FOjl82jppyohK-"
+      alt=""
+    />
+
+    <script src="./script.js"></script>
+  </body>
+</html>
