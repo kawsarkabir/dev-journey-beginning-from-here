@@ -78,3 +78,5 @@ for(let i = 0; i< response.length; i++){
     response[i] = rand > 5 ? 'x' : '0';
 }
 console.log(response);
+
+// array is everything 
