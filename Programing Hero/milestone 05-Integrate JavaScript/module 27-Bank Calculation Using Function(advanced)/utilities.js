@@ -17,3 +17,4 @@ function setTextElementValueById(elementId, newValue){
     const element = document.getElementById(elementId)
     element.innerText = newValue;
 }
+console.log('hello');
