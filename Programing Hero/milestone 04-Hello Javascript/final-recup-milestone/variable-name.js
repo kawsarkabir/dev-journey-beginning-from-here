@@ -1,5 +1,5 @@
 // variable type 
-/* 
+/*
 1. number => int, float
 2. string
 3. bolean 
@@ -40,5 +40,4 @@ let clube99 = 34; // its right */
 var user_name = 'raj bappa';
 
 // best recomended way to wright variable name
-
 const tumiKiSingle = true;
