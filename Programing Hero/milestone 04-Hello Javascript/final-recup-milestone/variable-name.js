@@ -19,22 +19,22 @@ console.log(isSingle);
 // variable naming convention 
 
 // 1.variable name cannot be any keyword 
-let function = 89; 
+/* let function = 89; 
 let return = false;
-
+ */
 
 // 2. variable name has to be in one work . No space 
-const my home address = 'barabil';
+// const my home address = 'barabil';
 
 // 3. variable name cannot be quotataion 
-const 'friends' = 'anamul';
+// const 'friends' = 'anamul';
 
 // 4. variable name can not starts with a number can ends with a number 
-var 99club = 384;
-let clube99 = 34; // its right
+/* var 99club = 384;
+let clube99 = 34; // its right */
 
 // cannot -
-const user-name = 'bappa raj';
+// const user-name = 'bappa raj';
 
 // how to use long name 
 var user_name = 'raj bappa';
