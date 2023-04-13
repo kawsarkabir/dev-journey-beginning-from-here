@@ -44,4 +44,4 @@ console.log(parseFloat(sum));
 let mangoes = 11;
 let person = 2;
 let remainder = mangoes % person;
-console.log(remainder); 
+console.log(remainder);
