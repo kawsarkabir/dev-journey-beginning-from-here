@@ -59,3 +59,12 @@ let lName = 'kabir';
 let fullName = fName + ' ' + lName;
 console.log(fullName);
  
+// another issue
+let price3 = 10;
+let price4 = '5';
+let totalPrices = price3 + price4;
+console.log(totalPrices);
+
+// parse float, int
+console.log(parseInt(totalPrices));
+// 
