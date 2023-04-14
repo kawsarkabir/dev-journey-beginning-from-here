@@ -91,3 +91,12 @@ for(let i = 0; i < ages.length; i++){
     }
     console.log(age);
 }
+
+
+// reverse way to loop
+let nums = 10;
+while(nums >= 1){
+    console.log(nums);
+    nums --;
+}
+
