@@ -44,3 +44,50 @@ for(let i = 1; i <= 10; i++){
     sum = sum + i;
     console.log(sum);
 }
+
+
+// terget: display every element of the array
+let number = [ 34, 38, 89, 90, 35];
+for(let i = 0; i< number.length; i++){
+    let numbers = number[i];
+    console.log(numbers);
+}
+
+// break && constinue 
+for(let i = 1; i<=5; i++){
+    console.log(i);
+    if(i== 2){
+        break;
+    }
+}
+
+
+// break
+let friends = ['anamul', 'nahin', 'mubarok'];
+for(let i = 0; i < friends.length; i++){
+    let friend = friends[i];
+    if(friend == 'mubarok'){
+        break;
+    }console.log(friend);
+}
+
+
+// continue 
+let buddys = ['anamul', 'nahin', 'mubarok' , 'k2', 'kabir'];
+for(let i = 0; i < buddys.length; i++){
+    let friend = buddys[i];
+    if(friend == 'mubarok'){
+        continue;
+    }console.log(friend);
+}
+
+
+// continue
+let ages = [1, 2,3, 60, 89, 45, 6, 7, 23, 90];
+for(let i = 0; i < ages.length; i++){
+    let age = ages[i];
+    if(age <= 50){
+        continue;
+    }
+    console.log(age);
+}
