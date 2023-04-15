@@ -24,10 +24,26 @@ const placess = document.querySelectorAll('.important-place');
 const someLi = document.querySelectorAll('ul li');
 // console.log(someLi);
 for(let  jaiga of someLi){
-    console.log(jaiga.innerText);
+    // console.log(jaiga.innerText);
 }
 
 
 // getAttribute
 const title = document.getElementById('place-title');
 title.setAttribute('title', 'tultips by js');
+
+
+// style in js
+const sections = document.querySelectorAll('section');
+// console.log(sections);
+for(const section of sections){
+    section.style.border = '2px solid red';
+    section.style.marginTop = '20px';
+    section.style.padding = '20px'
+}
+const placesContainer = document.getElementById('places-container');
+placesContainer.style.backgroundColor = 'pink';
+
+const awesomeDom = document.getElementById('awesome-dom');
+awesomeDom.classList.add('sundor-bg')
+awesomeDom.classList.add('large-text')
