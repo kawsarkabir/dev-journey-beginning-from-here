@@ -47,3 +47,5 @@ placesContainer.style.backgroundColor = 'pink';
 const awesomeDom = document.getElementById('awesome-dom');
 awesomeDom.classList.add('sundor-bg')
 awesomeDom.classList.add('large-text')
+
+
