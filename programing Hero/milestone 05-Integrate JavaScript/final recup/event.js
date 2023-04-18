@@ -40,9 +40,9 @@ document.getElementById('header').addEventListener('click', function(){
 }) */
 
 
-document.getElementById('btn-more').addEventListener('click', function(){
-    console.log('yeoo');
-})
+// document.getElementById('btn-more').addEventListener('click', function(){
+//     console.log('yeoo');
+// })
 
 
 // document.getElementById('input-field').addEventListener('focus', function(){
@@ -64,7 +64,17 @@ document.getElementById('btn-more').addEventListener('click', function(){
 // document.getElementById('input-field').addEventListener('keyup', function(e){
 //     console.log(e.target.value);
 // })
-
+document.getElementById('input-field').addEventListener('keyup', function(e){
+    const text = e.target.value;
+    const deleteBtn = document.getElementById('btn-delete');
+    if(text === 'delete'){
+        deleteBtn.removeAttribute('disabled');
+    }
+    else{
+        deleteBtn.setAttribute('disabled')
+    }
+});
 document.getElementById('btn-delete').addEventListener('click', function(){
-     
-})
+    const secrect =  document.getElementById('secrect-info');
+     secrect.style.display = 'none'
+     })
