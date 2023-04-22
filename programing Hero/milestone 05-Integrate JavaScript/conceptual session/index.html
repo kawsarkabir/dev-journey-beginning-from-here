@@ -1,80 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+
     <h1 class="class-name">Explore DOM</h1>
     <p id="id-name">Lorem ipsum dolor sit amet.</p>
     <a href="#">click me</a>
     <div id="div-container">
-        <h2>Lorem ipsum dolor sit.</h2>
-        <h2>Magnam eveniet haru voluptates?</h2>
-        <h2>Distinctio nam ex a.</h2>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <h2>Magnam eveniet haru voluptates?</h2>
+      <h2>Distinctio nam ex a.</h2>
     </div>
-
-    
-
+    <button id="plus">+</button>
+    <button id="minus">-</button>
 
     <script>
-        // getElementByTagName
-       const tagList =  document.getElementsByTagName('h2');
-       for(const h2 of tagList){
+      // getElementByTagName
+      const tagList = document.getElementsByTagName("h2");
+      for (const h2 of tagList) {
         console.log(h2);
-       }
-    //    getElementsByClassName
-    const classList = document.getElementsByClassName('class-name');
-    console.log(classList);
+      }
+      //    getElementsByClassName
+      const classList = document.getElementsByClassName("class-name");
+      console.log(classList);
 
-    // getElementByIdName
-    const idList = document.getElementById('id-name');
-    console.log(idList);
+      // getElementByIdName
+      const idList = document.getElementById("id-name");
+      console.log(idList);
 
-    // quarySelectorAll
-    const elements = document.querySelectorAll('a')[0];
-    console.log(elements.innerText);
+      // quarySelectorAll
+      const elements = document.querySelectorAll("a")[0];
+      console.log(elements.innerText);
 
+      // style in javaScript with CSS
+      const h1 = document.getElementById("id-name");
+      h1.style.color = "red";
+      h1.style.backgroundColor = "green";
+      h1.style.width = "200px";
+      h1.style.height = "200px";
+      h1.style.borderRadius = "50%";
+      h1.style.textAlign = "center";
+      h1.style.margin = "0 auto";
 
+      // 
+      const divConteiner = document.getElementById("div-container");
+      const h2 = document.createElement("h2");
+      h2.innerText = "i am form create elements";
+      divConteiner.appendChild(h2);
 
-
-
-    // style in javaScript with CSS
-const h1 = document.getElementById('id-name');
-h1.style.color = 'red';;
-h1.style.backgroundColor ='green';
-h1.style.width = '200px'
-h1.style.height = '200px'
-h1.style.borderRadius = '50%';
-h1.style.textAlign = 'center'
-h1.style.margin = '0 auto';
-
-// 
-
-const divConteiner = document.getElementById('div-container');
-const h2 = document.createElement('h2');
-h2.innerText = 'i am form create elements';
-divConteiner.appendChild(h2);
-
-//
-let get = document.getElementById('div-container');
-console.log(get.getAttribute('id'));
-console.log(get.setAttribute('class', 'k2'));
-
-
+      //
+      let get = document.getElementById("div-container");
+      console.log(get.getAttribute("id"));
+      console.log(get.setAttribute("class", "k2"));
     </script>
 
 
-
-
-
-
-
-
-
-
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
