@@ -16,4 +16,11 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     else{
         alert('Invalid user')
     }
-})
+});
+
+// step 5: add even handler on deposit button
+
+
+
+
+console.log('heo dd');
