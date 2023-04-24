@@ -1,4 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+}
 #welcome{
     text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+.baapArBank{
     color: blueviolet;
+    font-weight: 900;
+}
+
+.login-form{
+    background-color: rgb(194, 194, 250);
+    width: 70%;
+    margin: auto;
+    padding: 8rem;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.login-form input{
+    padding: 8px;
+    display: block;
+    width: 50%;
+    margin: 1rem 0;
+    border: none;
+}
+.login-btn{
+    padding: 10px 25px;
+    background-color: rgb(137, 47, 228);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    transition: .4s;
+}
+.login-btn:hover{
+    color: rgb(161, 185, 238);
+    background: #000;
+}
+/* bank html page style here */
+.bank-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: rgb(241, 238, 244); */
+    grid-gap: 2rem;
+    width: 70%;
+    margin: auto;
+
+}
+.bg-green{
+    background-color: rgb(124, 225, 124);
+    padding: 3rem;
+    
 }
