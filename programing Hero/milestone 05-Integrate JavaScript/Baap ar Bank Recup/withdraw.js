@@ -19,15 +19,6 @@ document.getElementById('withdraw-btn').addEventListener('click', function(){
     const currentBalanceTotal = previousBalance - newWithdrawAmount;
     balanceTotal.innerText = currentBalanceTotal;
     
-
-
-
-
-
-
-
-
-
     withdrawField.value = '';
 
 
