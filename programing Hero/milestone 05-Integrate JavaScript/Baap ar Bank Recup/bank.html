@@ -19,12 +19,12 @@
             </div>
             <div class="bg-blue">
                 <h4>Withdraw</h4>
-                <h2>$<span>00</span> </h2>
+                <h2>$<span id="withdraw-total">00</span> </h2>
             </div>
             <div class="bg-biolant">
                 <h4>Blance</h4>
                 <h2>$<span id="balance-total">1200</span> </h2>
-            </div>
+            </div> 
         </section>
         <!-- deposit and withdraw -->
         <section class="deposit-withdraw-section">
@@ -35,7 +35,7 @@
             </div>
             <div class="bg-biolant bg-orange">
                 <h2>Please Deposit</h2>
-                <input type="text" placeholder="Withdraw Amount">
+                <input id="withdraw-field" type="text" placeholder="Withdraw Amount">
                  <button id="withdraw-btn">Withdraw</button>
             </div>
             
@@ -44,5 +44,6 @@
     
 
     <script src="./deposit.js"></script>
+    <script src="./withdraw.js"></script>
 </body>
 </html>
