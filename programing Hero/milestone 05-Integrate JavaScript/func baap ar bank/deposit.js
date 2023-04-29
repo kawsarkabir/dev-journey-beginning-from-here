@@ -23,23 +23,4 @@
 }) */
 // functional way
 
-function getInputValueById(inputId){
-    const inputField = document.getElementById(inputId);
-    const inputFieldValueString = inputField.value;
-    const inputFieldValue = parseInt(inputFieldValueString);
-    inputField.value = '';
-    return inputFieldValue;
-}
-
-function getElementValueById(elementId){
-    const element = document.getElementById(elementId);
-    const elementValueString = element.innerText;
-    const elementValue = parseInt(elementValueString);
-    return elementValue;
-}
-document.getElementById('deposit-btn').addEventListener('click' , function(){
-    const newDepositAmount = getElementValueById('deposit-field')
-    console.log(newDepositAmount);
-    const previousDepositTotal = getElementValueById('deposit-total');
-    console.log(previousDepositTotal);
-})
+ 

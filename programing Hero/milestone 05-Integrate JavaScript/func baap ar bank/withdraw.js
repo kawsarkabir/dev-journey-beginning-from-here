@@ -1,4 +1,4 @@
-document.getElementById('withdraw-btn').addEventListener('click' , function(){
+/* document.getElementById('withdraw-btn').addEventListener('click' , function(){
     const withdrawField = document.getElementById('withdraw-field');
     const newWithdrawAmountString = withdrawField.value;
     const newWithdrawAmount = parseInt(newWithdrawAmountString);
@@ -19,3 +19,6 @@ document.getElementById('withdraw-btn').addEventListener('click' , function(){
     balanceTotal.innerText = currentBalanceTotal;
 
 });
+ */
+
+// functional way baap ar bank 
