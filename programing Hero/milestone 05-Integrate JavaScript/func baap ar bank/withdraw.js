@@ -22,3 +22,13 @@
  */
 
 // functional way baap ar bank 
+document.getElementById('withdraw-btn').addEventListener('click', function(){
+    const newWithdrawAmount = getInputFieldValueById('withdraw-field');
+    const previousWithdrawAmount =getElementValueById('withdraw-total');
+    const currentWithdrawTotal = newWithdrawAmount + previousWithdrawAmount;
+    setTextElementValueById('withdraw-total', currentWithdrawTotal);
+
+    const previousBalanceTotal = getElementValueById('balance-total');
+    const currentBalanceTotal = previousBalanceTotal - newWithdrawAmount;
+    setTextElementValueById('balance-total' , currentBalanceTotal)
+})
