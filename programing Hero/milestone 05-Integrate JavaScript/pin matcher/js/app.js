@@ -5,8 +5,7 @@ function getPin(){
     if(pinString.length === 4){
         return pin;
     }else{
-        // console.log('pin not 3 digit found', pin);
-        return getPin();
+         return getPin();
     }
 }
 
@@ -37,4 +36,19 @@ document.getElementById('calculator').addEventListener('click',function(e){
         const newTypeNumber = previousTypeNumber + number;
         typeNumberField.value = newTypeNumber;
     }
+})
+// varify pin number 
+document.getElementById('verify-pin').addEventListener('click', function(){
+     const displayPinField = document.getElementById('display-pin');
+     const currentPin = displayPinField.value;
+
+     const typeNumberField = document.getElementById('typed-numbers');
+     const typeNumber = typeNumberField.value;
+
+     if(typeNumber === currentPin){
+        console.log('current pin');
+     }else{
+        console.log('wrong pin please try again');
+     }
+
 })
