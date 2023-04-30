@@ -44,11 +44,13 @@ document.getElementById('verify-pin').addEventListener('click', function(){
 
      const typeNumberField = document.getElementById('typed-numbers');
      const typeNumber = typeNumberField.value;
-
+     const pinSuccessMassage = document.getElementById('pin-success');
      if(typeNumber === currentPin){
-        console.log('current pin');
+         pinSuccessMassage.style.display = 'block'
+         pinFailureMassage.style.display = 'none'
      }else{
-        console.log('wrong pin please try again');
+        pinFailureMassage = document.getElementById('pin-failure');
+        pinFailureMassage.style.display = 'block'
+        pinSuccessMassage.style.display = 'none'
      }
-
-})
+});
