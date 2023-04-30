@@ -45,11 +45,11 @@ document.getElementById('verify-pin').addEventListener('click', function(){
      const typeNumberField = document.getElementById('typed-numbers');
      const typeNumber = typeNumberField.value;
      const pinSuccessMassage = document.getElementById('pin-success');
+     const pinFailureMassage = document.getElementById('pin-failure'); 
      if(typeNumber === currentPin){
          pinSuccessMassage.style.display = 'block'
          pinFailureMassage.style.display = 'none'
      }else{
-        pinFailureMassage = document.getElementById('pin-failure');
         pinFailureMassage.style.display = 'block'
         pinSuccessMassage.style.display = 'none'
      }
