@@ -5,7 +5,7 @@ function getPin(){
     if(pinString.length === 4){
         return pin;
     }else{
-        console.log('pin nnot 3digit found', pin);
+        // console.log('pin not 3 digit found', pin);
         return getPin();
     }
 }
