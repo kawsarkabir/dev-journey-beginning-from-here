@@ -21,3 +21,16 @@ const doMath = (x, y, z) =>{
     const result = miltiplayResult / 2;
     return result;
 }
+// spread operator 
+const max = Math.max(12, 85, 999, 78);
+console.log(max);
+
+const numbers = [12, 89, 28, 890, 10];
+const largest = Math.max(...numbers)
+console.log(...numbers);
+console.log(largest);
+
+//
+
+const number2 = [90, 80, ... numbers,90,10];
+console.log(number2);
