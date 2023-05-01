@@ -19,8 +19,8 @@ function getDouble(numbers){
     return output;
 }
 const result = getDouble(numbers);
-console.log(numbers);
-console.log(result);
+// console.log(numbers);
+// console.log(result);
 
 // another way 
 function doubleItOld(number){
@@ -28,3 +28,12 @@ function doubleItOld(number){
 }
 // double ar kaz ta akhn arrow func korbe
 const doubleIt = num => num * 2;
+const makeDouble = numbers.map(doubleIt);
+console.log(makeDouble);
+
+const makeDoubleDirect = numbers.map(num => num * 2);
+console.log(makeDoubleDirect);
+
+// another way 
+const fiveTimes = [1,2, 3, 4,5,6 ].map(x => x * 5);
+console.log(fiveTimes);
