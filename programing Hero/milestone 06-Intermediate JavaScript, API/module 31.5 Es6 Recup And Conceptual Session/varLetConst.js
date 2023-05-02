@@ -40,6 +40,6 @@ console.log(myName);
 const myName = 'kawsar kabir';
 myName = 'kawsar Ahmed'; //re assign not possible
 console.log(myName);
-const myName = 'myself alen shopon'; // re define is not possible 
+// const myName = 'myself alen shopon'; // re define is not possible 
 console.log(myName);
 
