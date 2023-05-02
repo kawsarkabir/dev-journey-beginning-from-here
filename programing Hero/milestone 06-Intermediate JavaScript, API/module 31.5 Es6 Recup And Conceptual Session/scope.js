@@ -14,11 +14,28 @@ console.log('outside scope: ' + x);
 console.log('outside block scope: ' + y); */
 
 // 
-function add(x , y){
+/* function add(x , y){
     const total = x + y ;
     return total;
 }
 // not acces 
 console.log(x, y);
 const result = add(10, 20);
-console.log(result);
+console.log(result); */
+
+
+
+/* const x = 9;
+{
+    const y = 10;
+    console.log('inside block: ', y);
+}
+console.log('outside block : ', y); */
+
+//
+const a = 9;
+{
+    const a = 10;
+    console.log('inside block: ', a);
+}
+console.log('outside block : ', a);
