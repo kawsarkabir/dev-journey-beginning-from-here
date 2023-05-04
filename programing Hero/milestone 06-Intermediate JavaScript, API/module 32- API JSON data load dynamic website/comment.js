@@ -1,20 +1,16 @@
-function getComments(){
+function commnents(){
     fetch('https://jsonplaceholder.typicode.com/comments')
-    .then(res => res.json())
-    .then (data => showComments(data))
+    .then(ress => ress.json())
+    .then(data => showDisplay(data))
 }
-
-function showComments(data){
+commnents();
+function showDisplay(data){
     const commentContainer = document.getElementById('comment-container');
-
-    for(const comment of data){
-        console.log(comment);
+    for(const commentItem of data){
         const commentDiv = document.createElement('div');
-        commentDiv.innerHTML = `
-        <h2>${comment.id}</h2>
-        <h2>${comment.name}</h2>
-        <h3>${comment.postId}</h3>
-         `
+        commentDiv.innerHTML= `
+        <h1>${commentItem.id}</h1>
+        `
         commentContainer.appendChild(commentDiv)
     }
 }
