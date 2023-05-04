@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Fetching</title>
+    <style>
+        .blog-items{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+         }
+        .blog-items div{
+            background-color: lightblue;
+            width: 25%;
+            padding: 1.5rem;
+            margin: 1rem;
+        }
+        
+    </style>
+</head>
+<body>
+    
+
+
+<button onclick="loadData()" >Load DATA</button>
+<button onclick="loadDATA2()"> LoadDATA 2</button>
+<button onclick="displayData()">userDATA</button>
+<button onclick="dynamicDATA()">dynamicDATA</button>
+
+<!-- <button onclick="dynamicBlog()">display Dynamic POST</button> -->
+
+<div class="users-container">
+    <ul id="user-list"></ul>
+</div>
+
+<section class="blog-section">
+    <h1 style="text-align: center;">Blogs</h1>
+    <div id="blog-item"></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script src="./fetch.js"></script> -->
+    <!-- <script src="./more-dara.js"></script> -->
+    <!-- <script src="./dynamic-data.js"></script> -->
+    <script src="./dynamic-post.js"></script>
+</body>
+</html>
