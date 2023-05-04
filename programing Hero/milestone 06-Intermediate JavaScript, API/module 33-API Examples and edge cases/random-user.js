@@ -12,8 +12,7 @@ const displayUsers = data =>{
         
         const userDiv = document.createElement('div');
         userDiv.innerHTML = `
-        <h1>user name: ${user.email} </h1>
-        <p>user info</p>
+        <h1>email: ${user.email} </h1>
         `;
         userContainer.appendChild(userDiv);
     }
