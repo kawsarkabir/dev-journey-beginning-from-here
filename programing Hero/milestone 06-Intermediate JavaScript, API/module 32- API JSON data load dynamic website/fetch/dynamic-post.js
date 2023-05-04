@@ -7,6 +7,7 @@ dynamicBlog()
 function dynamicBlogDisplay(data){
     const blogItems = document.getElementById('blog-item');
     blogItems.classList.add('blog-items')
+    
     for(const blogItem of data){
         const div =document.createElement('div');
         div.innerHTML = `
