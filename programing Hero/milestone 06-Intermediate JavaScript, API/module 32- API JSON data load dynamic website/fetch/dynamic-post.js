@@ -10,8 +10,8 @@ function dynamicBlogDisplay(data){
     for(const blogItem of data){
         const div =document.createElement('div');
         div.innerHTML = `
-            <h3>${ blogItem.userId}</h3>
-            <h5>${blogItem.title} </h5>
+            <h4>${ blogItem.id}</h4>
+            <h2>${blogItem.title} </h2>
             <p> ${blogItem.body} </p>
         `
         blogItems.appendChild(div)
