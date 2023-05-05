@@ -11,8 +11,6 @@ const displayCounties = countries =>{
     // }
     const countiesContainer = document.getElementById('counties-container');
     countries.forEach(county =>{
-        console.log(county.name.common);
-
         const countyDiv = document.createElement('div');
         countyDiv.innerHTML = `
         <h3>Name: ${county.name.common}</h3>
