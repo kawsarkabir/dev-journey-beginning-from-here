@@ -75,7 +75,7 @@ data.forEach((car) => {
   singleCard.classList.add("col");
   singleCard.innerHTML = `
     <div class="card">
-    <img src="${imageURL}" class="card-img-top" alt="...">
+    <img src="${imageURL ? imageURL:"https://i.ibb.co/g9CSkZQ/image.png"}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">${name}</h5>
       <p class="card-text">${description}</p>
