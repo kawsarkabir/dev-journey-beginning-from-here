@@ -1,4 +1,4 @@
-function loadUsers(){
+/* function loadUsers(){
     fetch('https://jsonplaceholder.typicode.com/users')
     .then(res=> res.json())
     .then(data=>displayUsers(data))
@@ -41,4 +41,21 @@ function displayPost(data){
 }
 
 
-loadPost()
+loadPost() */
+
+// kanyeeeeeeeeeeeeeeeeee example:::::::::::
+
+const loadQuote = () =>{
+    fetch('https://api.kanye.rest/')
+    .then(res => res.json())
+    .then (data => displayQuote(data))
+}
+
+const displayQuote = data =>{
+    for(const quote of data){
+        console.log(quote);
+        const quoteDiv = document.getElementById('quote-container');
+        quoteDiv.innerText = quote.quote;
+    }
+}
+loadQuote()
