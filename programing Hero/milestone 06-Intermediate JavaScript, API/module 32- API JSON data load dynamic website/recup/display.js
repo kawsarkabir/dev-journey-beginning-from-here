@@ -19,3 +19,26 @@ function displayUsers(datas){
     }
 }
 loadUsers()
+
+function loadPost(){
+    fetch('https://jsonplaceholder.typicode.com/posts')
+    .then(res => res.json())
+    .then(data =>displayPost(data))
+}
+function displayPost(data){
+    const postContainer = document.getElementById('post-container');
+    for(const postItem of data){
+        console.log(postItem);
+        const postDiv = document.createElement('div');
+        postDiv.classList.add('user')
+        postDiv.innerHTML = `
+        <h1>PostId: ${postItem.id}</h1>
+        <h3>${postItem.title}</h3>
+        <p>${postItem.body}</p>
+        `
+        postContainer.appendChild(postDiv)
+    }
+}
+
+
+loadPost()
