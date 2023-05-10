@@ -18,3 +18,4 @@ console.log(expensive);
 const numbers2 = [1, 2, 3,4, 5, 5, 2, 65, 26,6, ];
 const even2 = numbers2.find( e => e % 2 === 0);
 console.log(even2);
+
