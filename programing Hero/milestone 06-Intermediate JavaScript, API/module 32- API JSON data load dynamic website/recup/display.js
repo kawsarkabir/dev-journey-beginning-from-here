@@ -51,11 +51,10 @@ const loadQuote = () =>{
     .then (data => displayQuote(data))
 }
 
-const displayQuote = data =>{
-    for(const quote of data){
-        console.log(quote);
-        const quoteDiv = document.getElementById('quote-container');
-        quoteDiv.innerText = quote.quote;
-    }
-}
-loadQuote()
+  
+
+
+
+
+
+
