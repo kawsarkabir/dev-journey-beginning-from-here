@@ -1,10 +1,11 @@
-const date = new Date();
-
 function Card(props) {
+const { todoTitle, todoDesc} = props;
   return (
-    <div className="card">
-      <h3 className="title">{props.todoTitle}</h3>
-      <p className="cardDesc">{props.todoDesc}</p>
+    <div className="customCSS">
+      <div>
+      <h3>{todoTitle}</h3>
+      <p>{todoDesc}</p>
+      </div>
     </div>
   );
 }
