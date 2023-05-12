@@ -1,13 +1,12 @@
-import Card from './components/Card.jsx';
-import './App.css'
-
-function App() {
+import React from 'react'
+import './index.css'
+import Card from './components/Card'
+const App = () => {
   return (
-     <div className="App">
-      <Card/>
-      <Card/>
-     </div>
-  );
+    <div>
+        <Card todoTitle = 'Apple' todoDesc = 'Apple is good for Helth'/>
+    </div>
+  )
 }
 
 export default App

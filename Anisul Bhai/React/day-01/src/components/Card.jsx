@@ -1,15 +1,11 @@
-function Card() {
+const date = new Date();
+
+function Card(props) {
   return (
-    <section className="card-container">
-     <div>
-     <img src="" alt="" />
-      <h4>Hello, I am card</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, qui!
-      </p>
-     </div>
-    </section>
+    <div className="card">
+      <h3 className="title">{props.todoTitle}</h3>
+      <p className="cardDesc">{props.todoDesc}</p>
+    </div>
   );
 }
-
 export default Card;
