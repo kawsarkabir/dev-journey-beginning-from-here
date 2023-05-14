@@ -45,10 +45,10 @@ let isRunning = true
 while(isRunning){
     let rand = Math.floor(Math.random()*10 + 1)
     if (rand === 9){
-        console.log('winner winner chicken Dinner');
+        // console.log('winner winner chicken Dinner');
         isRunning = false
     }else{
-        console.log('You have got ' + rand);
+        // console.log('You have got ' + rand);
     }
 }
 
@@ -57,9 +57,48 @@ while(isRunning){
 // ============ do while loppppppppppp
 let isOk = false;
 while(isOk){
-    console.log('I am ok');
+    // console.log('I am ok');
 }
 
 do{
-console.log('I am ok');
+// console.log('I am ok');
 }while(isOk)
+
+
+
+
+
+
+
+//  ========= nested Loop ===========
+/* 
+1
+1 2
+1 2 3
+1 2 3 4 
+1 2 3 4 5 */
+/* let n = 5
+for(let i = 1; i <= n; i++){
+    let result = ''
+    for(let j = 1; j <= i; j++){
+        result += j + ' '
+    }
+    console.log(result);
+} */
+
+
+
+/* 
+*****
+*****
+*****
+*/
+
+let num = 6;
+for(i = 1; i<= num; i++){
+    let result = ' '
+    for(let j = 1; j<= num; j++){
+        result += ' * '
+    }
+    console.log(result);
+}
