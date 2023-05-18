@@ -11,3 +11,14 @@ while(true){
 console.log(length)
 
 
+// ============== recup ==============
+let text = 'kawsar kabir'
+let length2 = 0;
+while(true){
+    if(text.charAt(length2) == ''){
+        break
+    }else{
+        length2++
+    }
+}
+console.log(length2);
