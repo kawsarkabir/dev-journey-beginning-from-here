@@ -101,3 +101,4 @@ for(let i = 0; i< (arr70.length / 2); i++){
 }
 console.log(arr70);
 
+//  arrray methods 
