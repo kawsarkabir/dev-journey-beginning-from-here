@@ -95,3 +95,11 @@ console.log(date);
 console.log(date.getDate());
 console.log(date.getFullYear());
 console.log(date.getMonth());
+
+
+
+// ternary operator 
+let x = 89
+console.log(x%2=== 0 ? 'even num':'odd number');
+
+
