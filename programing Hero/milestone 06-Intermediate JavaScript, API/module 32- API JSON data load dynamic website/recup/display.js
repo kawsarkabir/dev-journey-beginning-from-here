@@ -50,11 +50,9 @@ const loadQuote = () =>{
     .then(res => res.json())
     .then (data => displayQuote(data))
 }
-
-  
-
-
-
+const displayPost =() =>{
+    lo
+}
 
 
 
