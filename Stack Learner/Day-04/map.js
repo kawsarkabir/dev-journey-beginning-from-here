@@ -1,10 +1,11 @@
 //  Map Function in Javascript
 let arr = [1, 2, 3]
-/* arr.map(function(value){
+arr.map(function(value){
     let sqr = value * value
     console.log(sqr);
-}) */
+})
 
+// behind the since 
 function myMap(arr, cb){
     let newArr = []
     for(let i = 0; i<arr.length; i++){
