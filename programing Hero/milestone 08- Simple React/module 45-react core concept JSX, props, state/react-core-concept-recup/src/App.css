@@ -1,0 +1,7 @@
+.product-container{
+    background-color: lightpink;
+    padding: 15px;
+    border:  3px solid rgb(17, 91, 141);
+    margin: 50px;
+    border-radius: 20px;
+}
