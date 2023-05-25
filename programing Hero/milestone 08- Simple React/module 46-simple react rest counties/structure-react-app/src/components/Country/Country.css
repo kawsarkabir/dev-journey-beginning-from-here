@@ -1,0 +1,10 @@
+.country{
+    border: 3px solid salmon;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+    text-align: center;
+}
+.country img{
+    width: 200px;
+}
