@@ -33,7 +33,7 @@ const Gun = (props) => {
               <label onClick={()=>setModalData(gun)} htmlFor="my-modal-6" className="btn btn-sm btn-success">
                 Details
               </label>
-              {modalData && <Modal data={modalData} />}
+              {modalData && <Modal data={modalData} setModalData={setModalData} />}
             </div>
           </div>
         </div>

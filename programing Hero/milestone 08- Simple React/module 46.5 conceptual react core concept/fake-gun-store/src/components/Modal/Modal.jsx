@@ -1,6 +1,6 @@
 import React from "react";
 
-const Modal = ({data}) => {
+const Modal = ({data, setModalData}) => {
   return (
     <div>      
       {/* Put this part before </body> tag */}
@@ -15,8 +15,7 @@ const Modal = ({data}) => {
             use Wikipedia for free!
           </p>
           <div className="modal-action">
-            <label htmlFor="my-modal-6" className="btn">
-              Yay!
+            <label onClick={()=>setModalData('')} htmlFor="my-modal-6" className="btn">
             </label>
           </div>
         </div>
