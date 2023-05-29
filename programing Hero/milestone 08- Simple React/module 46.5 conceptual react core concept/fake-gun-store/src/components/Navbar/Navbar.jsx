@@ -1,8 +1,9 @@
 import React from "react";
+import './Nabvar.css'
 
-const Navbar = ({count}) => {
+const Navbar = ({ count }) => {
   return (
-    <div>
+    <>
       <div className="navbar bg-base-100 shadow-lg lg:padding=20px">
         <div className="flex-1">
           <a className="btn btn-ghost normal-case text-xl">Guns Shop</a>
@@ -79,7 +80,7 @@ const Navbar = ({count}) => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
