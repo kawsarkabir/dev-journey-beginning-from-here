@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./AddTodo.css";
 
 const AddTodo = () => {
   const [data, setData] = useState("");
@@ -6,30 +7,21 @@ const AddTodo = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     let obj = {
-      id: 101,
+      id: 100,
       todo: data,
       completed: false,
     };
-
-console.log(obj);
-
-
-fetch("http://localhost:3000/todos", {
-  method: "POST",
-  body: JSON.stringify(obj),
-  headers: {
-    "Content-type": "application/json; charset=UTF-8"
-  }
-});
-
-
-
+    console.log(obj);
   };
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
-        <input onChange={(e) => setData(e.target.value)} type="text" />
+      <form action="#" onSubmit={handleSubmit}>
+        <input
+          onChange={(e) => setData(e.target.value)}
+          type="text"
+          placeholder="add your new task"
+        />
         <button type="submit">Add</button>
       </form>
     </div>

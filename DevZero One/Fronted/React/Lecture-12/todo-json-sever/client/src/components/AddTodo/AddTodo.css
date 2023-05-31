@@ -1,0 +1,11 @@
+form{
+    text-align: center;
+    margin: 60px 0;
+}
+input{
+    padding: 8px 0;
+    width: 46%;
+}
+::placeholder{
+    text-align: center;
+}

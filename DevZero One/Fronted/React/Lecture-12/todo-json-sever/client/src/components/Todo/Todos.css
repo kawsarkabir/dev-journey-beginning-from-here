@@ -1,0 +1,23 @@
+.all-todo-box{
+    margin: 50px 0;
+    text-align: center;
+}
+.todoCard{
+    display:flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rebeccapurple;
+    box-shadow: 1px 1px 10px #414141;
+    width: 50%;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin: 20px auto;
+}
+.btn{
+    margin: 0 10px;
+}
+button{
+    padding: 6px 12px;
+    margin: 0 8px;
+}

@@ -1,11 +1,6 @@
 {
   "todos": [
     {
-      "id": 1,
-      "todo": "Do something nice for someone I care about",
-      "completed": true
-    },
-    {
       "id": 2,
       "todo": "Memorize the fifty states and their capitals",
       "completed": false
@@ -51,11 +46,6 @@
       "completed": true
     },
     {
-      "id": 17,
-      "todo": "Create a cookbook with favorite recipes",
-      "completed": false
-    },
-    {
       "id": 18,
       "todo": "Bake a pie with some friends",
       "completed": false
@@ -66,13 +56,8 @@
       "completed": true
     },
     {
-      "id": 20,
-      "todo": "Take a hike at a local park",
-      "completed": true
-    },
-    {
-      "id": 21,
-      "todo": "Take a class at local community center that interests you",
+      "id": 101,
+      "todo": "",
       "completed": false
     }
   ]
