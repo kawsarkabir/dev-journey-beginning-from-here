@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css'
-import Foods from './components/Foods/Foods';
-import Microshofts from './components/Microshofts/Microshofts';
+import Device from './components/Device/Device';
+import Watch from './components/Watch/Watch';
  
 
 const App = () => {
   return (
     <div className='App'>
-        <Foods/>
-        <Microshofts/>
+         <Device />
+         <Watch/>
     </div>
   );
 };

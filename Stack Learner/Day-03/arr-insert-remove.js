@@ -9,7 +9,7 @@ arr.unshift(101)
 
 //  insert the new elemets|| 1st argu kon index a man bosabo 2nd holo kisu remove korte chai ki na 3rd holo ki bosabo
 arr.splice(3, 0, 9)
-
+console.log(arr);
 // remove the last elements 
 arr.pop()
 
@@ -17,4 +17,4 @@ arr.pop()
 arr.shift()
 
 
-console.log(arr);
+// console.log(arr);
