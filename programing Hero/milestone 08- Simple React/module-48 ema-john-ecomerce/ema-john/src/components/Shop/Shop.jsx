@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Card from "../Card/Card";
+import Cart from "../Cart/Cart";
 
 const Shop = () => {
   const [products, setProducts] = useState([]);
@@ -13,8 +14,8 @@ const Shop = () => {
   }, []);
 
   const handleAddToCart = (product) => {
-    const newCart = [... cart, product]
-    setCart(newCart)
+    const newCart = [...cart, product];
+    setCart(newCart);
   };
   return (
     <div className="shop-container">
@@ -29,13 +30,7 @@ const Shop = () => {
       </div>
       <div className="cart-container mt-20 text-center font-semibold mr-16 shadow-2xl">
         <h4>Order summary</h4>
-        <div className="card-body">
-          <h2 className="card-title"> Items: {cart.length}</h2>
-          <h2 className="card-title">Total Price: $00</h2>
-          <h2 className="card-title">Total Shipping: $00</h2>
-          <h2 className="card-title">Tax: $00</h2>
-          <h2 className="card-title">Grand Total: $00</h2>
-        </div>
+        <Cart cart={cart}/>
       </div>
     </div>
   );
