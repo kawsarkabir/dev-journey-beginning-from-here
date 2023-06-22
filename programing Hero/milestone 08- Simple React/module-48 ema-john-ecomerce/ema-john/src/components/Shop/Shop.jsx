@@ -14,24 +14,24 @@ const Shop = () => {
       .then((data) => setProducts(data));
   }, []);
 
-  useEffect(()=>{
-    const storedCart = getShoppingCart()
+  useEffect(() => {
+    const storedCart = getShoppingCart();
     const saveCart = [];
-    for(const id in storedCart){
-      const addedProduct = products.find(product =>product.id === id)
-      if(addedProduct){
-        const qunantity = storedCart[id]
-        addedProduct.quantity = qunantity
-        saveCart.push(addedProduct)
+    for (const id in storedCart) {
+      const addedProduct = products.find((product) => product.id === id);
+      if (addedProduct) {
+        const qunantity = storedCart[id];
+        addedProduct.quantity = qunantity;
+        saveCart.push(addedProduct);
       }
     }
-    setCart(saveCart)
-  },[products])
+    setCart(saveCart);
+  }, [products]);
 
   const handleAddToCart = (product) => {
     const newCart = [...cart, product];
     setCart(newCart);
-    addToDb(product.id)
+    addToDb(product.id);
   };
   return (
     <div className="shop-container">
